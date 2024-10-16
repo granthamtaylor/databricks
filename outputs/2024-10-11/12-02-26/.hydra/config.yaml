@@ -1,0 +1,9 @@
+connection:
+  _target_: main.Connection
+  driver: mysql
+  host: union.ai
+  port: 1243
+  credentials:
+    _target_: main.Credentials
+    username: my_username
+    password: my_password

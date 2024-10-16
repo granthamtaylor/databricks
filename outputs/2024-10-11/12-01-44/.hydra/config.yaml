@@ -1,0 +1,9 @@
+connection:
+  _target_: structs.Connection
+  driver: mysql
+  host: union.ai
+  port: 1243
+  credentials:
+    _target_: structs.Credentials
+    username: my_username
+    password: my_password
